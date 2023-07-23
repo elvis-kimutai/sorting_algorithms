@@ -44,7 +44,7 @@ void merge_recursion(int *ar, int *array, size_t left, size_t right)
  * @array: array to merge
  *
  * @left: index of the left element
- * @middle: index of the middle element
+ * @center: index of the middle element
  * @right: index of the right element
  */
 
