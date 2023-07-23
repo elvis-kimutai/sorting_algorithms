@@ -35,5 +35,6 @@ void counting_sort(int *array, size_t size);
 void merge_sort(int *array, size_t size);
 void merge_recursion(int *ar, int *array, size_t left, size_t right);
 void merge_subarray(int *ar, int *array, size_t left, size_t center, size_t right);
+void heap_sort(int *array, size_t size);
 
 #endif
