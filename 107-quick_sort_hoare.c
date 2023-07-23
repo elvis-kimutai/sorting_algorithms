@@ -9,7 +9,7 @@
  *
  * Return: index of the piv element
  */
-int partition(int *array, int left, int right, size_t size)
+int part(int *array, int left, int right, size_t size)
 {
 	int tmp, pivot = array[right];
 	size_t i, k;
@@ -66,7 +66,7 @@ void quick_recursion(int *array, int left, int right, size_t size)
 
 	if (left < right)
 	{
-		piv = partition(array, left, right, size);
+		piv = part(array, left, right, size);
 		quick_recursion(array, left, piv - 1, size);
 		quick_recursion(array, piv, right, size);
 	}
