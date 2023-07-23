@@ -39,7 +39,7 @@ void bitonic_recursion(int *ar, int l, int r, int direction, size_t size)
  * bitonic_sort - function that sorts an array
  * following the Bitonic sort algorithm
  *
- * @ar: array of ints to sort
+ * @array: array of ints to sort
  * @size: size of the array
  */
 
