@@ -52,7 +52,7 @@ void bitonic_sort(int *array, size_t size)
 }
 
 /**
- * bitonic_merge - function that sorts and merges a sequence 
+ * bitonic_merge - function that sorts and merges a sequence
  * in ascending or descending order
  * @ar: the array to sort
  *
